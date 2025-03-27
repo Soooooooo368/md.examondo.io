@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examodo Moldova</title>
+    <style>
+        /* Stiluri generale */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: linear-gradient(to bottom, #a8e6cf, #ffffff);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* HEADER */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #64b5f6;
+            padding: 10px 20px;
+            color: white;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 40px; /* Logo mai mic */
+            margin-right: 10px;
+        }
+
+        nav {
+            display: flex;
+            gap: 10px;
+        }
+
+        .lang-btn, .login-btn {
+            background: #1565c0;
+            color: white;
+            border: none;
+            padding: 5px 8px; /* Butoane mai mici */
+            font-size: 13px; /* Text mai mic */
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* CONȚINUT PRINCIPAL */
+        .container {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px; /* Mai puțin spațiu sus */
+            flex-grow: 1;
+        }
+
+        .menu {
+            display: flex;
+            gap: 10px; /* Distanță mai mică între butoane */
+        }
+
+        .menu-btn {
+            background: #4caf50;
+            color: white;
+            border: none;
+            padding: 8px 16px; /* Butoane mai mici */
+            font-size: 14px; /* Font redus */
+            border-radius: 6px; /* Colțuri mai puțin rotunjite */
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .menu-btn.blue {
+            background: #2196f3;
+        }
+
+        
+        /* SECȚIUNE IMAGINE DE FUNDAL */
+        .class-image {
+            width: 80%; /* Dimensiune fixă similară cu site-ul */
+            max-width: 1000px; /* Limitarea dimensiunii */
+            height: auto; /* Menținerea proporțiilor */
+            margin: 20px auto; /* Centrare orizontală */
+            display: block; /* Asigurarea afișării */
+            border-radius: 12px; /* Colțuri ușor rotunjite */
+        }
+
+        /* FOOTER */
+        footer {
+      background: #e0e0e0;
+      padding: 1rem;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+    }
+
+        footer a {
+            margin: 0 8px; /* Distanță mai mică între linkuri */
+            color: #1565c0;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Bara de navigare -->
+    <header>
+        <div class="logo">
+            <img src="Design_fără_titlu-removebg-preview.png" alt="Examodo Logo">
+            <h1 style="font-size: 18px; margin: 0;">Examodo Moldova</h1>
+        </div>
+<a href ='md.login.examondo.html'>
+
+    </header>
+
+    <!-- Butoane principale -->
+    <section class="container">
+        <div class="menu">
+            <button class="menu-btn">
+                🧩 Rezolvați probleme publice
+            </button>
+            <button class="menu-btn blue">
+                ➡️ Autentificare
+            </button>
+        </div>
+    </section>
+
+    <!-- Imaginea clasei -->
+    <img src="stock-photo-classroom-without-students.png" alt="Imagine cu o clasă" class="class-image">
+
+    <!-- Footer -->
+    <footer>
+        <a href="#">Termeni și condiții</a>
+        <a href="#">Politica de confidențialitate</a>
+        <a href="#">Consimțământ privind cookie-urile</a>
+    </footer>
+
+</body>
+
+</html>
